@@ -1,0 +1,43 @@
+{
+	"name": "smartlandscape",
+	"version": "0.0.1",
+	"description": "Desktop App for designing Landscape using analytics",
+	"keywords": [
+		"electron",
+		"analytics",
+		"webpack",
+		"react",
+		"cognitive",
+		"smart"
+	],
+	"license": "MIT",
+	"author": "cochise73",
+	"main": "main.js",
+	"repository": {
+		"type": "git",
+		"url": "git"
+	},
+	"scripts": {
+		"test": "mocha --compilers js:babel-register --recursive",
+		"start": "electron ."
+	},
+	"dependencies": {
+		"electron-prebuilt": "^0.37.6",
+		"react": "^15.0.1",
+		"react-dom": "^15.0.1"
+	},
+	"devDependencies": {
+		"babel": "^6.5.2",
+		"babel-core": "^6.7.6",
+		"babel-loader": "^6.2.4",
+		"css-loader": "^0.23.1",
+		"electron-builder": "^3.6.0",
+		"electron-packager": "^6.0.2",
+		"less": "^2.6.1",
+		"less-loader": "^2.2.3",
+		"node-libs-browser": "^1.0.0",
+		"style-loader": "^0.13.1",
+		"webpack": "^1.13.0",
+		"webpack-dev-server": "^1.14.1"
+	}
+}
